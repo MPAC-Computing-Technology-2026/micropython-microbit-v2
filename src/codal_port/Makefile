@@ -34,6 +34,7 @@ INC += -I../codal_app
 INC += -I$(LOCAL_LIB_DIR)
 INC += -I$(CMSIS_DIR)
 INC += -I$(NRFX_DIR)
+INC += -I$(LOCAL_LIB_DIR)/codal/libraries/codal-nrf52/inc
 INC += -I$(NRFX_DIR)/drivers/include
 INC += -I$(NRFX_DIR)/hal
 INC += -I$(NRFX_DIR)/mdk
@@ -100,6 +101,8 @@ SRC_C += \
 	modspeech.c \
 	modthis.c \
 	mphalport.c \
+	comptech_wifi.c \
+	comptech_dht22.c \
 
 SRC_C += \
 	shared/readline/readline.c \
