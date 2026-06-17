@@ -103,6 +103,9 @@ SRC_C += \
 	mphalport.c \
 	comptech_wifi.c \
 	comptech_dht22.c \
+	modcomptech_vl53l0x.c \
+	vl53l0x.c \
+
 
 SRC_C += \
 	shared/readline/readline.c \
